@@ -5,6 +5,7 @@ import Link from "next/link";
 
 import Navbar from "components/Navbars/AuthNavbar.js";
 import Footer from "components/Footers/Footer.js";
+import {Cut_Lesson} from "components/Cut/Cut_Lesson.js";
 
 export default function Landing() {
   return (
@@ -60,6 +61,7 @@ export default function Landing() {
             </svg>
           </div>
         </div>
+        <Cut_Lesson />
 
         <section className="pb-20 bg-blueGray-200 -mt-24">
           <div className="container mx-auto px-4">
